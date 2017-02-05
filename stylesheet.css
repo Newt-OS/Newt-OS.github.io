@@ -49,13 +49,20 @@ li a:hover:not(.active) {
 
 .main {
   z-index: -1;
-  position: absolute;
   width: 80%;
   min-width: 50em;
-  /*min-height: 1600px;*/
   margin: 4.5em 10% 2em;
+  padding: 16px 0;
   background-color: #fcfcfc;
   box-shadow: 0 .1rem .2rem rgba(0,0,0,0.12),0 0 .1rem rgba(0,0,0,0.12);
+}
+
+footer {
+  background-color: #000;
+  width: 100%;
+  height: 64px;
+  position: absolute;
+  bottom: 0;
 }
 
 .button {
@@ -209,12 +216,20 @@ li a:hover:not(.active) {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24), 0 2px 4px 0 rgba(0,0,0,0.19);
 }
 
+.spacer-fix {
+  clear: both;
+  width: 100%;
+  height: 8px;
+  background: none;
+}
+
 /*About content*/
 
 .what {
   text-align: center;
   color: #000;
   font-size: 20px;
+  margin: 0 10% 16px 10%;
 }
 
 #what {
@@ -231,7 +246,7 @@ li a:hover:not(.active) {
 
 .techs {
   width: 80%;
-  margin: 0 10%;
+  margin: 0 10% 28px;
   border-collapse: collapse;
   box-shadow: 0 0 .2rem rgba(0,0,0,0.35);
 }
