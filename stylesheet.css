@@ -121,7 +121,7 @@ footer {
 .getButton {
   float: left;
   margin-left: 1em;
-  width: 176px; 
+  width: 176px;
 }
 
 .getButton:hover {
@@ -285,4 +285,4 @@ tr:hover {
 
 #butts-teehee {
   border: 0px;
-}
+} 
