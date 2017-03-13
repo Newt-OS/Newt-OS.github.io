@@ -143,7 +143,7 @@ footer {
 
 #contact {
   margin: 0 auto 2em;
-  width: 50%;
+  width: 70%;
   min-height: 100px;
   display: block;
 }
@@ -155,20 +155,10 @@ footer {
   color: #000;
 }
 
-#contactLink {
-
-}
-
-#mail {
-
-}
-
-#youtube {
-
-}
-
-#googPlus {
-
+#why {
+  font-weight: normal;
+  font-size: 1.25em;
+  line-height: 1.5em;
 }
 
 /*Download content*/
@@ -285,4 +275,4 @@ tr:hover {
 
 #butts-teehee {
   border: 0px;
-} 
+}
