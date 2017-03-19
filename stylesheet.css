@@ -157,7 +157,7 @@ footer {
 #contactHeader {
   text-align: center;
   font-weight: normal;
-  font-size: 28px;
+  font-size: 32px;
   color: #000;
 }
 
@@ -166,6 +166,40 @@ footer {
   font-size: 1.25em;
   line-height: 1.5em;
   text-align: center;
+}
+
+.whynos {
+  margin: 24px;
+  padding: 1em 2em;
+}
+
+.home-head {
+  font-weight: normal;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0;
+}
+
+.half {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(50% - .5em);
+  margin-bottom: 1em;
+}
+
+.openSUSE {
+  margin-right: .5em
+}
+.money {
+  margin: 0 8em;
+}
+
+#txt {
+  font-size: 1.25em;
+  line-height: 1.5em;
+  text-align: center;
+  padding-bottom: 24px;
+  margin-top: .5em;
 }
 
 /*Download content*/
